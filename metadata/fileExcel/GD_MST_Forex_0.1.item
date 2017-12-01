@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_ffIFQGIQEeWYX7_kP-8H3w" name="GD_MST_Forex" dataPackage="_ffIFQWIQEeWYX7_kP-8H3w" Server="Localhost 127.0.0.1" FilePath="C:/Users/maityd/Desktop/talend/sorce files/GD_MST_Forex.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ffIFQWIQEeWYX7_kP-8H3w" name="default" dataManager="_ffIFQGIQEeWYX7_kP-8H3w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ffIFQmIQEeWYX7_kP-8H3w" id="_ZpuYIGIQEeWYX7_kP-8H3w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ffIFQ2IQEeWYX7_kP-8H3w" label="Year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ffIFRGIQEeWYX7_kP-8H3w" label="Month" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ffIFRWIQEeWYX7_kP-8H3w" label="Forex_Rate" length="5" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ffIFRmIQEeWYX7_kP-8H3w" label="From_Currency" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ffIFR2IQEeWYX7_kP-8H3w" label="To_Currency" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

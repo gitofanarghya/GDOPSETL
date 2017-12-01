@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row1.Rate_Local != null ? Integer.p(row1.Rate_Local).floatValue() : 0.0">
+  <variables name="row1.Job_Level" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.RateCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Rate_Local" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row1.Rate_USD" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row1.Billing_Code" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Billing_Location" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Forex_Rate" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row1.Local_Currency" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.To_Currency" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Country" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.City_Tier" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Tenure" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Job_Lvl_Id" value="0" talendType="id_Integer"/>
+  <variables name="row2.Job_Lvl_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Job_Lvl_Desc" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

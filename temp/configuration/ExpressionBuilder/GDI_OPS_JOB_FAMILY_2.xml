@@ -1,0 +1,19 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="Integer.toString((row2.Job_Lvl_Id)) !=    null ? row2.Job_Lvl_Id : -1">
+  <variables name="row1.Job_Function_Group" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Job_Job_Family_Group" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Job_Job_Family" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Job_Code" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Job_Title" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Management_Level" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Management_Level_Desc" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.TCP_Job" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Technical_Job" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Job_Category" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Job_Profile_Effective_Status" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Job_Lvl_Id" value="0" talendType="id_Integer"/>
+  <variables name="row2.Job_Lvl_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Job_Lvl_Desc" value="null" talendType="id_String" nullable="true"/>
+  <variables name="(row1.TCP_Job) != null ? (row1.TCP_Job.matches(&quot;Y&quot;) ? true : false) : null " value="false" talendType="id_Boolean"/>
+  <variables name="(row1.Technical_Job ) != null ? (row1.Technical_Job .matches(&quot;Y&quot;) ? true : false) : null " value="false" talendType="id_Boolean"/>
+</expression:EMFExpression>

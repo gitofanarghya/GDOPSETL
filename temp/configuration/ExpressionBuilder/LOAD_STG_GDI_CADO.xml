@@ -1,0 +1,26 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row1.By.toString()">
+  <variables name="row1.Column0" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Pers_No_" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Proj_Ta" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Date" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Hour" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="row1.A_AType" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.A_A_type_text" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.WBS_Element" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Last_change" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Time" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Sts" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.By" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.ActTyp" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Attribut" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Send__CCtr" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Name1" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Column17" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Employee_Appl_Name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Proj_Task" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Hours" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Last_chnge" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Attribute1" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

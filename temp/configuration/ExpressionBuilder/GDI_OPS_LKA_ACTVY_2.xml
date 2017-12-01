@@ -1,0 +1,8 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row1.A_AType.toString()">
+  <variables name="row1.A_AType" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.A_A_type_text" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Billable" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Billing_Classification" value="null" talendType="id_String" nullable="true"/>
+  <variables name="(row1.Billable ) != null ?   (((row1.Billable )).matches(&quot;Yes&quot;)) ?  true : false : null " value="false" talendType="id_Boolean"/>
+</expression:EMFExpression>

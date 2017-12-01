@@ -1,0 +1,118 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="Integer.parseInt((TalendDate.formatDate(&quot;MM&quot;,TalendDate.parseDate(&quot;MM&quot;,CADO.Date))))">
+  <variables name="CADO.Pers_No" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.Name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.Proj_Task" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.Date" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.Hours" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.A_AType" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.A_A_type_text" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.WBS_Element" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.Last_chnge" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.Time" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.Sts" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.By" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.ActTyp" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.Attribute1" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.Send_CCtr" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CADO.Sts_Desc" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CATS_COSTING.PersNo" value="null" talendType="id_String" nullable="true"/>
+  <variables name="CATS_COSTING.CATS_Costing" value="null" talendType="id_String" nullable="true"/>
+  <variables name="EMP_ASSN.Emp_Id" value="null" talendType="id_String"/>
+  <variables name="EMP_ASSN.Strt_Dt" value="null" talendType="id_Date"/>
+  <variables name="EMP_ASSN.Stat_Tp" value="null" talendType="id_String"/>
+  <variables name="EMP_ASSN.Bs_Lctn_Id" value="0" talendType="id_Integer"/>
+  <variables name="EMP_ASSN.Emp_Tp_Id" value="0" talendType="id_Integer"/>
+  <variables name="EMP_ASSN.Emp_Stat_Id" value="0" talendType="id_Integer"/>
+  <variables name="EMP_ASSN.Cntrc_Cmpny_Id" value="0" talendType="id_Integer"/>
+  <variables name="EMP_ASSN.Lctn_Tp" value="null" talendType="id_String" nullable="true"/>
+  <variables name="EMP_ASSN.Trmtn_Rsn_Id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="EMP_ASSN.Cmpn_Grd_Id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="EMP_ASSN.Wkplc_Tp_Id" value="0" talendType="id_Integer"/>
+  <variables name="EMP_ASSN.Rate_Dmn" value="null" talendType="id_String" nullable="true"/>
+  <variables name="EMP_ASSN.Job_Lvl_Id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="EMP_ASSN.Emp_Rep_Lvl" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="EMP_ASSN.Cntrc_Strt_Dt" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="EMP_ASSN.Cntrc_End_Dt" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="EMP_ASSN.Compa_Ratio" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="EMP_ASSN.Lst_Bs_Pay_Incrs_Dt" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="EMP_ASSN.Lst_Bs_Pay_Incrs_Pct" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="EMP_ASSN.Lst_Cmpn_Grd_Chng_Dt" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="EMP_ASSN.Rvw_Rtng" value="null" talendType="id_String" nullable="true"/>
+  <variables name="EMP_ASSN.Rvw_Rtng_Dt" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="EMP_ASSN.End_Dt" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="EMP_ASSN.Actv_Flg" value="false" talendType="id_Boolean"/>
+  <variables name="EMP_ASSN.MRU_Id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="EMP_ASSN.Job_Fmly_Id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="EMP_ASSN.Grphy_Id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="ACTVY.Actvy_Id" value="0" talendType="id_Integer"/>
+  <variables name="ACTVY.Actvy_Tp" value="null" talendType="id_String" nullable="true"/>
+  <variables name="ACTVY.Actvy_Tp_Desc" value="null" talendType="id_String" nullable="true"/>
+  <variables name="ACTVY.Blble_Flg" value="false" talendType="id_Boolean"/>
+  <variables name="ACTVY.Blng_Clsfn" value="null" talendType="id_String" nullable="true"/>
+  <variables name="FOREX.Forex_Id" value="0" talendType="id_Integer"/>
+  <variables name="FOREX.Forex_Rate" value="0" talendType="id_Float"/>
+  <variables name="FOREX.Frm_Crncy" value="null" talendType="id_String"/>
+  <variables name="FOREX.To_Crncy" value="null" talendType="id_String"/>
+  <variables name="FOREX.Mth" value="0" talendType="id_Integer"/>
+  <variables name="FOREX.Yr" value="0" talendType="id_Integer"/>
+  <variables name="WBS_CD.WBS_Elmnt_Id" value="0" talendType="id_Integer"/>
+  <variables name="WBS_CD.Acct_Id" value="0" talendType="id_Integer"/>
+  <variables name="WBS_CD.WBS_Cd" value="null" talendType="id_String" nullable="true"/>
+  <variables name="WBS_CD.Blng_Tp" value="null" talendType="id_String" nullable="true"/>
+  <variables name="JOB_LVL.Job_Lvl_Id" value="0" talendType="id_Integer"/>
+  <variables name="JOB_LVL.Job_Lvl_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="JOB_LVL.Job_Lvl_Desc" value="null" talendType="id_String" nullable="true"/>
+  <variables name="SPVR_HRCH.Emp_Id" value="null" talendType="id_String"/>
+  <variables name="SPVR_HRCH.Rprt_Lvl_0_Mngr_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="SPVR_HRCH.Rprt_Lvl_1_Mngr_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="SPVR_HRCH.Rprt_Lvl_2_Mngr_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="SPVR_HRCH.Rprt_Lvl_3_Mngr_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="SPVR_HRCH.Rprt_Lvl_4_Mngr_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="SPVR_HRCH.Rprt_Lvl_5_Mngr_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="SPVR_HRCH.Rprt_Lvl_6_Mngr_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="SPVR_HRCH.Rprt_Lvl_7_Mngr_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="SPVR_HRCH.Rprt_Lvl_8_Mngr_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="SPVR_HRCH.Rprt_Lvl_9_Mngr_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="SPVR_HRCH.Rprt_Lvl_10_Mngr_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="SPVR_HRCH.Strt_Dt" value="null" talendType="id_Date"/>
+  <variables name="SPVR_HRCH.End_Dt" value="null" talendType="id_Date"/>
+  <variables name="SPVR_HRCH.Actv_Flg" value="false" talendType="id_Boolean"/>
+  <variables name="ONSITE_EMPLOYEE.Emp_Id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="ONSITE_EMPLOYEE.Emp_Nm" value="null" talendType="id_String" nullable="true"/>
+  <variables name="ONSITE_EMPLOYEE.Cntry" value="null" talendType="id_String" nullable="true"/>
+  <variables name="ONSITE_EMPLOYEE.Cty_Tier" value="null" talendType="id_String" nullable="true"/>
+  <variables name="ONSITE_EMPLOYEE.Onst_Strt_Dt" value="null" talendType="id_String" nullable="true"/>
+  <variables name="ONSITE_EMPLOYEE.Onst_End_Dt" value="null" talendType="id_String" nullable="true"/>
+  <variables name="ONSITE_EMPLOYEE.Tenure" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Emp_tp.Emp_Tp_Id" value="0" talendType="id_Integer"/>
+  <variables name="Emp_tp.Emp_Tp" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Emp_tp.Emp_Tp_Desc" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Rate_crd.Rate_Crd_Id" value="0" talendType="id_Integer"/>
+  <variables name="Rate_crd.Rate_Dmn" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Rate_crd.Lctn_Tp" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Rate_crd.Actv_Flg" value="false" talendType="id_Boolean"/>
+  <variables name="Rate_crd.Rate_Lcl_Crncy" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="Rate_crd.Lcl_Crncy" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Rate_crd.Rate_To_Crncy" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="Rate_crd.Strt_Dt" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="Rate_crd.End_Dt" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="Rate_crd.Job_Lvl_Id" value="0" talendType="id_Integer"/>
+  <variables name="Rate_crd.Cntry" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Rate_crd.Cty_Tier" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Rate_crd.Tenure" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Rate_crd.To_Crncy" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Rate_crd.Blng_Tp" value="null" talendType="id_String" nullable="true"/>
+  <variables name="(ACTVY.Blng_Clsfn.trim()).toUpperCase() == (&quot;TRAINING&quot;) ? Float.parseFloat(CADO.Hours) : -1.0f " value="0" talendType="id_Float"/>
+  <variables name="(ACTVY.Blng_Clsfn.trim()).toUpperCase() == (&quot;DELIVERY&quot;) ? Float.parseFloat(CADO.Hours) : -1.0f " value="0" talendType="id_Float"/>
+  <variables name="(ACTVY.Blng_Clsfn.trim()).toUpperCase() == (&quot;NON DELIVERY&quot;) ? Float.parseFloat(CADO.Hours) : -1.0f " value="0" talendType="id_Float"/>
+  <variables name="((ACTVY.Blng_Clsfn.trim()).toUpperCase() == (&quot;VACATION&quot;)&#xD;&#xA; &amp;&amp;&#xD;&#xA; (CADO.A_AType.equalsIgnoreCase(&quot;110&quot;) || (CADO.A_AType.equalsIgnoreCase(&quot;792&quot;) ) ) )&#xD;&#xA;? &#xD;&#xA; Float.parseFloat(CADO.Hours) : -1.0f " value="0" talendType="id_Float"/>
+  <variables name="((ACTVY.Blng_Clsfn.trim()).toUpperCase() == (&quot;VACATION&quot;)&#xD;&#xA; &amp;&amp;&#xD;&#xA; !(CADO.A_AType.equalsIgnoreCase(&quot;110&quot;) || &#xD;&#xA; !(CADO.A_AType.equalsIgnoreCase(&quot;792&quot;) ) ) )&#xD;&#xA;? &#xD;&#xA; Float.parseFloat(CADO.Hours) : -1.0f " value="0" talendType="id_Float"/>
+  <variables name="WBS_CD.Blng_Tp.equalsIgnoreCase(&quot;MONTHLY&quot;) ? &quot;MONTHLY&quot; :&#xD;&#xA;!WBS_CD.Blng_Tp.equalsIgnoreCase(&quot;MONTHLY&quot;) &amp;&amp; EMP_ASSN.Lctn_Tp.equalsIgnoreCase(&quot;ONSITE&quot;) ? &quot;ONSITE&quot; :&#xD;&#xA;!WBS_CD.Blng_Tp.equalsIgnoreCase(&quot;MONTHLY&quot;) &amp;&amp; !EMP_ASSN.Lctn_Tp.equalsIgnoreCase(&quot;ONSITE&quot;) &amp;&amp;  Emp_tp.Emp_Tp.equalsIgnoreCase(&quot;C&quot;) ? &quot;CWF&quot; : &quot;OFFSHORE&quot; " value="null" talendType="id_String"/>
+  <variables name="EMP_ASSN.Lctn_Tp != null ? (EMP_ASSN.Lctn_Tp.equalsIgnoreCase(&quot;ONSITE&quot;)  ?  ONSITE_EMPLOYEE.Cntry ? null ) : null " value="null" talendType="id_String"/>
+  <variables name="EMP_ASSN.Lctn_Tp != null ? (EMP_ASSN.Lctn_Tp.equalsIgnoreCase(&quot;ONSITE&quot;)  ?  ONSITE_EMPLOYEE.Cty_Tier ? null ) : null " value="null" talendType="id_String"/>
+  <variables name="EMP_ASSN.Lctn_Tp.trim().equalsIgnoreCase(&quot;OFFSHORE&quot;) ?  Rate_crd.Rate_Lcl_Crncy  :&#xD;&#xA;EMP_ASSN.Lctn_Tp.trim().equalsIgnoreCase(&quot;ONSITE&quot;) &amp;&amp;&#xD;&#xA; (&#xD;&#xA;&#x9;ONSITE_EMPLOYEE.Cntry.trim().equalsIgnoreCase(Rate_crd.Cntry.trim())  &#xD;&#xA;  &amp;&amp;  ONSITE_EMPLOYEE.Cty_Tier.trim().equalsIgnoreCase(Rate_crd.Cty_Tier.trim())         &#xD;&#xA;  &amp;&amp; ONSITE_EMPLOYEE.Tenure.trim().equalsIgnoreCase(Rate_crd.Tenure .trim())   &#xD;&#xA;  &#xD;&#xA; ) ? ( Rate_crd.Rate_To_Crncy * FOREX.Forex_Rate )  :  -1.0f " value="0" talendType="id_Float"/>
+  <variables name="EMP_ASSN.Lctn_Tp.trim().equalsIgnoreCase(&quot;ONSITE&quot;) &#xD;&#xA; &amp;&amp;&#xD;&#xA; (&#xD;&#xA;     ONSITE_EMPLOYEE.Cntry.trim().equalsIgnoreCase(Rate_crd.Cntry.trim())  &#xD;&#xA;  &amp;&amp; ONSITE_EMPLOYEE.Cty_Tier.trim().equalsIgnoreCase(Rate_crd.Cty_Tier.trim())         &#xD;&#xA;  &amp;&amp; ONSITE_EMPLOYEE.Tenure.trim().equalsIgnoreCase(Rate_crd.Tenure .trim())    ? &#xD;&#xA;&#xD;&#xA;  Rate_crd.Rate_To_Crncy   :&#xD;&#xA;  &#xD;&#xA;EMP_ASSN.Lctn_Tp.trim().equalsIgnoreCase(&quot;OFFSHORE&quot;) ?    (Rate_crd.Rate_Lcl_Crncy  / FOREX.Forex_Rate )   :   -1.0f " value="0" talendType="id_Float"/>
+  <variables name="WBS_CD.Blng_Tp.trim().equalsIgnoreCase(&quot;HOURLY&quot;) &amp;&amp;   Rate_crd.Lcl_Crncy.trim().equalsIgnoreCase(&quot;USD&quot;) ?  Var.rate_Hrs_Usd *  FOREX.Forex_Rate * Float.parseFloat((CADO.Hours)) " value="0" talendType="id_Float"/>
+  <variables name="WBS_CD.Blng_Tp.trim().equalsIgnoreCase(&quot;HOURLY&quot;) ? (Var.rate_Hrs_Usd * Float.parseFloat(CADO.Hours)) : -1.0f " value="0" talendType="id_Float"/>
+</expression:EMFExpression>

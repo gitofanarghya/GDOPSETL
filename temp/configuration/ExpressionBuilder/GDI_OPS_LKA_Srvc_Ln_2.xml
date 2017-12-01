@@ -1,0 +1,13 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="true">
+  <variables name="row1.MRU_Grouping" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.MRU" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Status" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Costcentercode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.SCS_Code" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Shortdesc" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Resource_Pool" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.SL_Name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.SL_Leader_Name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Rate_Domain" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

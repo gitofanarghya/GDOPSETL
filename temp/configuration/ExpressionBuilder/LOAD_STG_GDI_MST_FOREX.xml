@@ -1,0 +1,8 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row1.Year.trim()">
+  <variables name="row1.Year" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.Month" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.Forex_Rate" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="row1.From_Currency" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.To_Currency" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>
